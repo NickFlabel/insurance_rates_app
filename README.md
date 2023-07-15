@@ -1,6 +1,6 @@
 # Social Network App
 
-This is a small app that allows user to upload insurance rate for a given date and cargo type and get the insurance price for a given date and cargo type. The app is built using FastAPI and tortoise ORM. 
+This is a small insurance rate app that allows users to upload insurance rates for specific dates and cargo types. Users can also retrieve the insurance price based on a given date and cargo type. The app is built using the FastAPI framework and utilizes the Tortoise ORM for database operations.
 
 ## Prerequisites
 
@@ -24,6 +24,6 @@ Make sure you have the following installed on your system:
 
 4. To run the tests, use the following command:
     ```bash
-    docker-compose exec social_network pytest social_network/
+    docker-compose exec rates_app pytest main/ -v
 
 5. Swagger documentation for the API endpoints is available at http://localhost:8000/docs when the project is started.
